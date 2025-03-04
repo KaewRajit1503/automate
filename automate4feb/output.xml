@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.13.0 on darwin)" generated="2025-03-04T09:25:05.258082" rpa="false" schemaversion="5">
+<suite id="s1" name="If Else" source="/Users/rajitkaew.j/Documents/automate/automate4feb/if_else.robot">
+<test id="s1-t1" name="TC_01" line="52">
+<kw name="Calculate grade">
+<if>
+<branch type="IF" condition="${text}&gt;=90">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>A</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-03-04T09:25:05.274212" elapsed="0.000111"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.273960" elapsed="0.000409"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=80">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>B</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274455" elapsed="0.000012"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274391" elapsed="0.000100"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=70">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>C</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274550" elapsed="0.000012"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274506" elapsed="0.000074"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>D</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274633" elapsed="0.000011"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274593" elapsed="0.000069"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&lt;60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>F</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274710" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.274673" elapsed="0.000060"/>
+</branch>
+<status status="PASS" start="2025-03-04T09:25:05.273942" elapsed="0.000802"/>
+</if>
+<arg>${a}</arg>
+<status status="PASS" start="2025-03-04T09:25:05.273752" elapsed="0.001025"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.273408" elapsed="0.001454"/>
+</test>
+<test id="s1-t2" name="TC_02" line="54">
+<kw name="Calculate grade">
+<if>
+<branch type="IF" condition="${text}&gt;=90">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>A</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275430" elapsed="0.000011"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275342" elapsed="0.000119"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=80">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>B</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-03-04T09:25:05.275550" elapsed="0.000076"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.275473" elapsed="0.000173"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=70">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>C</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275701" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275659" elapsed="0.000065"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>D</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275771" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275735" elapsed="0.000060"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&lt;60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>F</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275842" elapsed="0.000007"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.275806" elapsed="0.000057"/>
+</branch>
+<status status="PASS" start="2025-03-04T09:25:05.275332" elapsed="0.000541"/>
+</if>
+<arg>${b}</arg>
+<status status="PASS" start="2025-03-04T09:25:05.275192" elapsed="0.000709"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.274979" elapsed="0.000992"/>
+</test>
+<test id="s1-t3" name="TC_03" line="56">
+<kw name="Calculate grade">
+<if>
+<branch type="IF" condition="${text}&gt;=90">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>A</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276459" elapsed="0.000010"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276385" elapsed="0.000102"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=80">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>B</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276566" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276499" elapsed="0.000092"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=70">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>C</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-03-04T09:25:05.276664" elapsed="0.000062"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.276602" elapsed="0.000145"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>D</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276801" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276759" elapsed="0.000066"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&lt;60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>F</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276871" elapsed="0.000007"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.276835" elapsed="0.000058"/>
+</branch>
+<status status="PASS" start="2025-03-04T09:25:05.276377" elapsed="0.000526"/>
+</if>
+<arg>${c}</arg>
+<status status="PASS" start="2025-03-04T09:25:05.276254" elapsed="0.000672"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.276070" elapsed="0.000920"/>
+</test>
+<test id="s1-t4" name="TC_04" line="58">
+<kw name="Calculate grade">
+<if>
+<branch type="IF" condition="${text}&gt;=90">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>A</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277441" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277372" elapsed="0.000097"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=80">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>B</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277548" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277481" elapsed="0.000093"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=70">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>C</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277651" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277585" elapsed="0.000089"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>D</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-03-04T09:25:05.277746" elapsed="0.000061"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.277685" elapsed="0.000141"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&lt;60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>F</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277879" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.277838" elapsed="0.000065"/>
+</branch>
+<status status="PASS" start="2025-03-04T09:25:05.277364" elapsed="0.000549"/>
+</if>
+<arg>${d}</arg>
+<status status="PASS" start="2025-03-04T09:25:05.277257" elapsed="0.000679"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.277080" elapsed="0.001004"/>
+</test>
+<test id="s1-t5" name="TC_05" line="60">
+<kw name="Calculate grade">
+<if>
+<branch type="IF" condition="${text}&gt;=90">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>A</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.278873" elapsed="0.000012"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.278755" elapsed="0.000156"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=80">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>B</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.279012" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.278926" elapsed="0.000113"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=70">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>C</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.279123" elapsed="0.000008"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.279051" elapsed="0.000097"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&gt;=60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>D</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-03-04T09:25:05.279227" elapsed="0.000009"/>
+</kw>
+<status status="NOT RUN" start="2025-03-04T09:25:05.279160" elapsed="0.000093"/>
+</branch>
+<branch type="ELSE IF" condition="${text}&lt;60">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>F</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-03-04T09:25:05.279334" elapsed="0.000082"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.279264" elapsed="0.000173"/>
+</branch>
+<status status="PASS" start="2025-03-04T09:25:05.278740" elapsed="0.000708"/>
+</if>
+<arg>${e}</arg>
+<status status="PASS" start="2025-03-04T09:25:05.278587" elapsed="0.000887"/>
+</kw>
+<status status="PASS" start="2025-03-04T09:25:05.278214" elapsed="0.001425"/>
+</test>
+<status status="PASS" start="2025-03-04T09:25:05.259076" elapsed="0.020875"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="If Else">If Else</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
