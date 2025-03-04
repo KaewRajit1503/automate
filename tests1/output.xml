@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.13.0 on darwin)" generated="2025-03-03T15:58:21.609022" rpa="false" schemaversion="5">
+<suite id="s1" name="Opentest1" source="/Users/rajitkaew.j/Documents/automate/tests1/opentest1.robot">
+<test id="s1-t1" name="TC01 - open google and input search" line="8">
+<kw name="Open url">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-03T15:58:21.726702" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-03T15:58:21.726534" elapsed="13.060435"/>
+</kw>
+<status status="PASS" start="2025-03-03T15:58:21.725986" elapsed="13.061324"/>
+</kw>
+<kw name="Input search">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-03T15:58:34.788882" level="INFO">Typing text 'robot' into text field 'id=APjFqb'.</msg>
+<msg time="2025-03-03T15:58:34.810532" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+0   chromedriver                        0x0000000100c80708 chromedriver + 5969672
+1   chromedriver                        0x0000000100c7832a chromedriver + 5935914
+2   chromedriver                        0x0000000100734650 chromedriver + 415312
+3   chromedriver                        0x00000001007084b5 chromedriver + 234677
+4   chromedriver                        0x00000001007b46fe chromedriver + 939774
+5   chromedriver                        0x00000001007d2e85 chromedriver + 1064581
+6   chromedriver                        0x00000001007abf43 chromedriver + 905027
+7   chromedriver                        0x0000000100777cea chromedriver + 691434
+8   chromedriver                        0x0000000100778e41 chromedriver + 695873
+9   chromedriver                        0x0000000100c43910 chromedriver + 5720336
+10  chromedriver                        0x0000000100c47850 chromedriver + 5736528
+11  chromedriver                        0x0000000100c24c07 chromedriver + 5594119
+12  chromedriver                        0x0000000100c482fb chromedriver + 5739259
+13  chromedriver                        0x0000000100c13484 chromedriver + 5522564
+14  chromedriver                        0x0000000100c661d8 chromedriver + 5861848
+15  chromedriver                        0x0000000100c6639f chromedriver + 5862303
+16  chromedriver                        0x0000000100c77f08 chromedriver + 5934856
+17  libsystem_pthread.dylib             0x00007ff811b9818b _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff811b93ae3 thread_start + 15
+</msg>
+<msg time="2025-03-03T15:58:34.811090" level="FAIL">Element with locator 'id=APjFqb' not found.</msg>
+<arg>id=APjFqb</arg>
+<arg>${value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2025-03-03T15:58:34.788375" elapsed="0.026229">Element with locator 'id=APjFqb' not found.</status>
+</kw>
+<arg>robot</arg>
+<status status="FAIL" start="2025-03-03T15:58:34.787941" elapsed="0.026819">Element with locator 'id=APjFqb' not found.</status>
+</kw>
+<status status="FAIL" start="2025-03-03T15:58:21.725654" elapsed="13.089354">Element with locator 'id=APjFqb' not found.</status>
+</test>
+<status status="FAIL" start="2025-03-03T15:58:21.609813" elapsed="13.205593"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Opentest1">Opentest1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-03T15:58:34.810532" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+0   chromedriver                        0x0000000100c80708 chromedriver + 5969672
+1   chromedriver                        0x0000000100c7832a chromedriver + 5935914
+2   chromedriver                        0x0000000100734650 chromedriver + 415312
+3   chromedriver                        0x00000001007084b5 chromedriver + 234677
+4   chromedriver                        0x00000001007b46fe chromedriver + 939774
+5   chromedriver                        0x00000001007d2e85 chromedriver + 1064581
+6   chromedriver                        0x00000001007abf43 chromedriver + 905027
+7   chromedriver                        0x0000000100777cea chromedriver + 691434
+8   chromedriver                        0x0000000100778e41 chromedriver + 695873
+9   chromedriver                        0x0000000100c43910 chromedriver + 5720336
+10  chromedriver                        0x0000000100c47850 chromedriver + 5736528
+11  chromedriver                        0x0000000100c24c07 chromedriver + 5594119
+12  chromedriver                        0x0000000100c482fb chromedriver + 5739259
+13  chromedriver                        0x0000000100c13484 chromedriver + 5522564
+14  chromedriver                        0x0000000100c661d8 chromedriver + 5861848
+15  chromedriver                        0x0000000100c6639f chromedriver + 5862303
+16  chromedriver                        0x0000000100c77f08 chromedriver + 5934856
+17  libsystem_pthread.dylib             0x00007ff811b9818b _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff811b93ae3 thread_start + 15
+</msg>
+</errors>
+</robot>

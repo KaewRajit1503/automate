@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.13.0 on darwin)" generated="20241116 17:28:20.433" rpa="false" schemaversion="3">
+<suite id="s1" name="test TC1" source="/Users/rajitkaew.j/Documents/automate/dopee/test_TC1.robot">
+<test id="s1-t1" name="TC01" line="20">
+<kw name="Open Browser">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20241116 17:28:20.526" level="INFO">Opening browser 'chrome' to base url 'https://training-platform.doppio-tech.com/'.</msg>
+<status status="PASS" starttime="20241116 17:28:20.525" endtime="20241116 17:28:22.320"/>
+</kw>
+<status status="PASS" starttime="20241116 17:28:20.525" endtime="20241116 17:28:22.320"/>
+</kw>
+<kw name="Input Search">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Search_locator}</arg>
+<arg>${Keywords_search}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241116 17:28:22.321" level="INFO">Typing text 'Doppee phone' into text field '//input[@placeholder="input search text"]'.</msg>
+<status status="PASS" starttime="20241116 17:28:22.321" endtime="20241116 17:28:22.460"/>
+</kw>
+<status status="PASS" starttime="20241116 17:28:22.321" endtime="20241116 17:28:22.460"/>
+</kw>
+<status status="PASS" starttime="20241116 17:28:20.525" endtime="20241116 17:28:22.460"/>
+</test>
+<status status="PASS" starttime="20241116 17:28:20.434" endtime="20241116 17:28:22.461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="test TC1">test TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
